@@ -1,0 +1,11 @@
+
+
+VIDEO LINK: https://youtu.be/fEDM39ozUl8
+
+DISCLAIMER:
+Before running the file, please change the paths of the following selected lines
+to match file paths on the current computer running the program
+
+LINE 111, 112, 113, 114 --> use file location of "AVENGEANCE HEROIC AVENGER BD.ttf" font family file located in src folder
+LINE 583 ---> change string s to file location of "avengers.wav" also located in src folder
+LINES 1514 to 1604 & 2703 to 2789 --> change image source locations to corresponding images found in "board" package

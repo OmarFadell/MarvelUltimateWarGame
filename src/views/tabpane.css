@@ -1,0 +1,27 @@
+.tab-pane {
+    -fx-background-color: rgba(110, 154, 199, 0.39);
+	-fx-padding: 5;
+	-fx-border-color: yellow;
+}
+
+.tab {
+    -fx-background-color: #333333;
+}
+
+.tab-pane>*.tab-header-area>*.tab-header-background
+{
+    -fx-background-color: -fx-outer-border, -fx-text-box-border, #333333;
+}
+
+.tab-label {
+    -fx-text-fill: #e6e6e6;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #003333ff;
+}
+
+.tab:selected {
+    -fx-background-color: #ffd800;
+}
+
